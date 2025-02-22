@@ -23,13 +23,11 @@ The **Recipe Finder App** is a Next.js application that allows users to search f
 
 ### 🍽️ Recipe List Page
 > Displays recipes with images and titles. Clicking on a recipe navigates to the details page.
-
 ![image](https://github.com/user-attachments/assets/1734b8f1-1cec-472b-92fa-4387a2282741)
 
 
 ### 📖 Recipe Details Page
 > Shows full recipe details, including ingredients and step-by-step instructions.
-
 ![image](https://github.com/user-attachments/assets/7a81beb9-778d-4982-86ab-ccb9a7a11c30)
 
 ---
@@ -38,7 +36,7 @@ The **Recipe Finder App** is a Next.js application that allows users to search f
 
 ### 1️⃣ Clone the repository
 git clone https://github.com/yourusername/recipe-finder-app.git
-cd recipe-finder
+cd recipe-finder-app
 ### 2️⃣ Install dependencies
 npm install
 ### 3️⃣ Run the development server
@@ -60,4 +58,4 @@ TypeScript - Static typing for better code quality
 
 👨‍💻 Author
 Developed by [Ruslan Voshchylo]
-🔗 [LinkedIn:](https://www.linkedin.com/in/ruslan-voshchylo-5060522a9/)
+🔗 [LinkedIn](https://www.linkedin.com/in/ruslan-voshchylo-5060522a9/)
