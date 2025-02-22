@@ -1,36 +1,63 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🍽️ Recipe Finder App
 
-## Getting Started
+The **Recipe Finder App** is a Next.js application that allows users to search for recipes, filter by cuisine and preparation time, and view detailed recipe information.
 
-First, run the development server:
+---
 
-```bash
+## 🚀 Features
+
+✅ Search for recipes by **query, cuisine, and max preparation time**  
+✅ Display a **paginated list of recipes** with images  
+✅ View **detailed recipe information**, including ingredients and instructions  
+✅ Optimized **SSR (Server-Side Rendering) and caching**  
+✅ **Styled with Tailwind CSS** for a modern UI  
+
+---
+
+## 📸 Screenshots
+
+### 🔎 Recipe Search Page
+> A simple search form where users can enter a recipe name, choose a cuisine, and set a maximum preparation time.
+![image](https://github.com/user-attachments/assets/132c5632-1802-472c-8dc4-500d58024a60)
+
+
+### 🍽️ Recipe List Page
+> Displays recipes with images and titles. Clicking on a recipe navigates to the details page.
+
+![image](https://github.com/user-attachments/assets/1734b8f1-1cec-472b-92fa-4387a2282741)
+
+
+### 📖 Recipe Details Page
+> Shows full recipe details, including ingredients and step-by-step instructions.
+
+![image](https://github.com/user-attachments/assets/7a81beb9-778d-4982-86ab-ccb9a7a11c30)
+
+---
+
+## 🛠️ Installation & Setup
+
+### 1️⃣ Clone the repository
+git clone https://github.com/yourusername/recipe-finder-app.git
+cd recipe-finder
+### 2️⃣ Install dependencies
+npm install
+### 3️⃣ Run the development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+🏗️ Technologies Used
+Next.js - Framework for React
+React.js - Component-based UI library
+Tailwind CSS - Styling framework
+Axios - API requests
+LRU-Cache - In-memory caching
+TypeScript - Static typing for better code quality
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+🔥 Performance Optimization
+✅ Server-Side Rendering (SSR) - Fetches recipes at request time
+✅ API Caching - Uses LRU-Cache to store results for 1 minute
+✅ Lazy Loading - Images are loaded only when visible
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+👨‍💻 Author
+Developed by [Ruslan Voshchylo]
+🔗 [LinkedIn:](https://www.linkedin.com/in/ruslan-voshchylo-5060522a9/)
