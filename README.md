@@ -42,6 +42,8 @@ npm install
 ### 3️⃣ Run the development server
 npm run dev
 
+Now open http://localhost:3000 in your browser.
+
 ## 🏗️ Technologies Used
 
 - **Next.js** - Framework for React  
