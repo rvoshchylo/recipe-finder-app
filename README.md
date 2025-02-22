@@ -42,13 +42,15 @@ npm install
 ### 3️⃣ Run the development server
 npm run dev
 
-🏗️ Technologies Used
-Next.js - Framework for React
-React.js - Component-based UI library
-Tailwind CSS - Styling framework
-Axios - API requests
-LRU-Cache - In-memory caching
-TypeScript - Static typing for better code quality
+## 🏗️ Technologies Used
+
+- **Next.js** - Framework for React  
+- **React.js** - Component-based UI library  
+- **Tailwind CSS** - Styling framework  
+- **Axios** - API requests  
+- **LRU-Cache** - In-memory caching  
+- **TypeScript** - Static typing for better code quality  
+
 
 🔥 Performance Optimization
 ✅ Server-Side Rendering (SSR) - Fetches recipes at request time
